@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.ptacci {
+  pointer-events: none;
+  border-radius: 10px;
+  border: 2px palevioletred solid;
+}
+
+.ptacci2 {
+  pointer-events: none;
+  border-radius: 10px;
+  border: 2px palevioletred solid;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.yes {
+  all: unset;
+  background-color: lime;
+  border: 2px solid limegreen;
+  border-radius: 4px;
+  aspect-ratio: 2 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.yes:hover {
+  cursor: pointer;
+}
+
+.no {
+  all: unset;
+  background-color: rgb(255, 44, 44);
+  border: 2px solid rgb(188, 1, 1);
+  border-radius: 4px;
+  width: 200px;
+  height: 100px;
+  aspect-ratio: 2 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+.no:hover {
+  cursor: pointer;
+}
+
+.yespress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
